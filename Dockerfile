@@ -6,5 +6,5 @@ ADD ./requirements.txt /code/requirements.txt
 RUN pip install -r requirements.txt
 
 ADD . /code
-RUN sleep 20
+RUN sleep 22
 CMD ["python", "server.py"]
